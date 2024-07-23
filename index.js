@@ -11,12 +11,15 @@ function changeR (){
 
    if (random == 1) {
       comp.src ="Rock.jpg";
+      document.getElementById("out").innerHTML = "DRAW";
     }
     else if (random == 2) {
       comp.src ="Paper.jpg";
+      document.getElementById("out").innerHTML = "YOU LOSE";
     }
     else {
       comp.src = "scissor.jpg"
+      document.getElementById("out").innerHTML = "YOU WIN";
     }
 }
 function changeP (){
@@ -25,12 +28,15 @@ function changeP (){
     let random = Math.floor(Math.random() * 4);
     if (random == 1) {
       comp.src ="Rock.jpg";
+      document.getElementById("out").innerHTML = "YOU WIN";
     }
     else if (random == 2) {
       comp.src ="Paper.jpg";
+      document.getElementById("out").innerHTML = "DRAW";
     }
     else {
       comp.src = "scissor.jpg"
+      document.getElementById("out").innerHTML = "YOU LOSE";
     }
  }
  function changeS (){
@@ -39,12 +45,15 @@ function changeP (){
     let random = Math.floor(Math.random() * 4);
     if (random == 1) {
       comp.src ="Rock.jpg";
+      document.getElementById("out").innerHTML = "YOU LOSE";
     }
     else if (random == 2) {
       comp.src ="Paper.jpg";
+      document.getElementById("out").innerHTML = "YOU WIN";
     }
     else {
       comp.src = "scissor.jpg"
+      document.getElementById("out").innerHTML = "DRAW";
     }
  }
 
